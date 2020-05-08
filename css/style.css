@@ -7,8 +7,10 @@
 .container {
 border : 1px solid rgba(55, 71 ,79, 0.7);
 width : 65vw;
+max-width: 2000px;
 margin: auto;
 display:flex;
+
 
 }
 
@@ -211,7 +213,11 @@ td .fa-circle {
     padding-bottom: 8px;
 }
 
-
+@media screen and (min-width:2000px){
+    #articleloisir {
+        position:static;
+    }
+}
 
 @media screen and (max-width:1200px){
     .container{
